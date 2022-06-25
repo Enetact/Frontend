@@ -1,0 +1,49 @@
+.display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.displayLabel {
+  width: 35%;
+  padding-top: 8px
+}
+
+.subLabel {
+  color: #273576;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.displayContent {
+  width: 65%;
+  color: #5C5C5C;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.displayHeader {
+  color: #273576;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+
+  &.secondary {
+    color: #e86825;
+  }
+}
+
+.listItem {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.listItemText {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+}

@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+
+  > * {
+    overflow: hidden;
+  }
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #50545e;
+  margin: 0;
+}
+
+.editButton {
+  color: #e86825;
+  font-weight: 600;
+  cursor: pointer;
+}

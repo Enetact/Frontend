@@ -1,0 +1,55 @@
+.header {
+  background-color: #ffffff;
+  color: #273576;
+  box-shadow: none;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logoWrapper img {
+  width: 90px;
+}
+
+.menuItems {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.navLink {
+  margin: 1rem;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  text-shadow: '1px 2px #e3e9ff';
+  text-decoration: none;
+  color: #273576;
+
+  &:visited,
+  &:focus {
+    color: #273576;
+  }
+}
+
+.menuLink {
+  font-size: 12px;
+  text-decoration: none;
+  color: #273576;
+
+  &:visited,
+  &:focus {
+    color: #273576;
+  }
+}
+
+.menuIconButton {
+  padding: 0;
+}
+
+.menu {
+  margin-top: 3rem;
+}

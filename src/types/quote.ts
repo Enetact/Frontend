@@ -1,0 +1,25 @@
+export type QuoteType = {
+  userId: string;
+  state: string;
+  insured: string;
+  zip: string;
+  category: string;
+  duration: string;
+  crewOnJob: string | number;
+  limit: string;
+  completedProject: string | number;
+  name: string;
+  email: string;
+  date: string;
+  effectiveDate: string;
+  expiryDate: string;
+  blanketAdditionalInsuredCoverage: boolean;
+  waiverOfSubrogation: boolean;
+  leasedOrRentedToolsEquipment: boolean;
+  extendedPropDamCoverage: boolean;
+  completedProjectFactor: boolean;
+  IsOrigami: boolean;
+  isComplete: boolean;
+  quotationId: string;
+  isActive: boolean;
+};

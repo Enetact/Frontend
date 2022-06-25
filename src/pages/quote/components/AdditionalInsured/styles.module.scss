@@ -1,0 +1,28 @@
+.deleteInsured {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: 8px !important;
+  font-size: 12px;
+  color: #838791;
+  font-weight: 700;
+}
+
+.addInsured {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  font-size: 12px;
+  color: #e86825;
+  font-weight: 700;
+}
+
+.continueButtonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.formWrapper {
+  border: 0 !important;
+  padding: 8px 0 !important;
+}

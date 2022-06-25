@@ -1,0 +1,91 @@
+.mainComponent {
+  padding: 0px;
+  max-width: 420px;
+}
+
+.mainComponentContainer {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navBar {
+  margin-top: 48px;
+}
+
+.navBarLink {
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navBarActive {
+  font-weight: 1000;
+  color: #273576;
+}
+
+.formDescription {
+  max-width: 280px;
+  margin: 0 auto;
+  padding: 16px 12px 4px 12px;
+}
+
+.formDescriptionText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #1D1D1D;
+}
+    
+
+.formContainer {
+  position: relative;
+  overflow: hidden;
+  background: #E3E9FF;
+  padding: 20px 32px 80px 32px;
+  min-height: 520px;
+  margin-bottom: 10px;
+}
+
+.formContainer::before {
+  border-radius: 100%;
+  position: absolute;
+  background: #FFFFFF;
+  right: -10px;
+  left: -10px;
+  top: -25px;
+  content: '';
+  bottom: 40px;
+  height: 40px;
+  box-shadow: inset 0px 6px 4px 2px rgba(123, 148, 235, 0.4), 0px 4px 6px #E3E8FF;
+}
+
+.formContainer::after {
+  border-radius: 100%;
+  position: absolute;
+  background: #FFFFFF;
+  right: -10px;
+  left: -10px;
+  content: '';
+  bottom: -20px;
+  height: 40px;
+  box-shadow: inset 0px 5px 5px -2px rgb(123 148 235 / 40%), 0px 1px 2px -7px #e3e8ff;
+}
+
+.formTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+}
+
+.formButton {
+  text-transform: none;
+  font-weight: 600;
+  padding: 8px 20px;
+  width: 148px;
+}

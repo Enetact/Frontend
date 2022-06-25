@@ -1,0 +1,27 @@
+.textfieldWrapper {
+  margin: 0.5rem 0 0;
+
+  .textfieldLabel {
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: #50545e;
+  }
+
+  .textfieldContainer {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #202532;
+  }
+
+  .hasError {
+    color: #db2c39;
+  }
+
+  .errorMessage {
+    display: block;
+    font-size: 0.75rem;
+    color: #db2c39;
+    height: 0.5rem;
+  }
+}

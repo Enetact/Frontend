@@ -1,0 +1,20 @@
+.formInputLabel {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #202532;
+}
+
+.formTextField {
+  margin-top: 2px;
+}
+
+.formTextFieldInput {
+  background-color: #ffffff;
+}
+
+// The TextField API does not provide a way to target the input directly
+.formTextFieldInput > input {
+  padding: 12px 16px;
+  color: #50545E;
+}

@@ -1,0 +1,17 @@
+.card {
+  background: #ffffff;
+  box-shadow: 0px 6px 20px -2px rgba(18, 110, 255, 0.14), 0px 4px 6px #e3e8ff;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.cardHeader {
+  color: #273576;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  margin-bottom: 8px !important;
+
+  &.secondary {
+    color: #e86825;
+  }
+}

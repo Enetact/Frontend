@@ -1,0 +1,35 @@
+.wrapper {
+  color: #ffffff;
+  background-color: #273576;
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 12px !important;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.hourlyRate {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+.finishLater {
+  margin: 0 auto !important;
+  padding: 0 !important;
+  min-height: 30px !important;
+  color: #ffffff !important;
+  text-decoration: underline !important;
+  font-size: 12px !important;
+}
+
+.accountCreation {
+  background-color: #e3e9ff;
+  padding: 16px;
+  text-align: center;
+}

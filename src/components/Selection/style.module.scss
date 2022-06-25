@@ -1,0 +1,44 @@
+.checkboxWrapper {
+  position: relative;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 10px;
+  width: 134px;
+  height: 130px;
+  padding: 10px;
+  border: 1px solid #abb5e3;
+  background: #8f9dda;
+  color: rgba(255, 255, 255, 0.72);
+  cursor: pointer;
+  overflow: hidden;
+
+  &.isChecked {
+    background: #273576;
+    color: #ffffff !important;
+  }
+
+  .checkbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .Mui-checked {
+      color: #8f9dda !important;
+    }
+    &.isChecked {
+      color: #8f9dda !important;
+    }
+  }
+
+  .hidden {
+    display: none;
+    visibility: hidden;
+  }
+
+  .label {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}

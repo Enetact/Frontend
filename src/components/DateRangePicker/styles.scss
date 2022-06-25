@@ -1,0 +1,31 @@
+.dateRangePicker {
+  .rdrPprevButton {
+    i {
+      border-color: transparent #273576 transparent transparent !important;
+    }
+  }
+
+  .rdrNextButton {
+    i {
+      border-color: transparent transparent transparent #273576 !important;
+    }
+  }
+
+  .rdrDayToday .rdrDayNumber span {
+    &:after {
+      background: #273576 !important;
+    }
+  }
+
+  .rdrInRange {
+    color: #8f9eda !important;
+  }
+
+  .rdrDayStartPreview,
+  .rdrDayEndPreview,
+  .rdrDateDisplayItemActive,
+  .rdrStartEdge,
+  .rdrEndEdge {
+    color: #273576 !important;
+  }
+}
